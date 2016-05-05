@@ -6,6 +6,7 @@
     1.  Basics
     2.  Code Highlighter (Monokai Sublime style)
     3.  General
+    4.  Navigation
     4.  Post
     5.  Media Queries
     6.  Animations
@@ -614,6 +615,18 @@ img {
 .masthead .header-wrapper .bottom .menu li:nth-child(2) {
   margin: 0 1.7rem;
 }
+/* ==========================================================================
+   4. Navigation
+   ========================================================================== */
+.nav {
+  list-style: none;
+  padding: 0;
+}
+.nav li{
+
+}
+
+
 /* ==========================================================================
    4. Post
    ========================================================================== */
