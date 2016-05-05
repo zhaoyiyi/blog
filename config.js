@@ -11,7 +11,7 @@ config = {
     // When running Ghost in the wild, use the production environment.
     // Configure your URL and mail settings here
     production: {
-        url: 'http://159.203.42.55/',
+        url: 'http://blog.yizhao.me/',
         mail: {},
         database: {
             client: 'sqlite3',
