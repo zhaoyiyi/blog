@@ -179,8 +179,11 @@ header.regular {
   position: fixed;
   top: 0;
   left: 0;
-  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
   background-position: center;
+  background-color: lightgrey;
+  background-blend-mode: color-burn;
   width: 100%;
   height: 50vh;
 }
@@ -472,8 +475,12 @@ body.post-template .post-excerpt .author {
   display: none;
 }
 
+.post-title {
+  color: slategrey;
+}
+
 .post-meta, .tags {
-  color: #fafafa;
+  color: snow;
 }
 
 .tags {
